@@ -11,8 +11,8 @@ jobs:
   run_tests: # Имя
     runs-on: [ubuntu-latest] # Контейнер
     steps:
-      # # Чекаутим код
-      # - uses: actions/checkout@master
+      # Чекаутим код
+      - uses: actions/checkout@master
       # Устанавливаем python нужной версии
       - uses: actions/setup-python@v1
         with:
