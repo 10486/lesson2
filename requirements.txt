@@ -1,0 +1,6 @@
+torch==1.11.0+cu113
+sklearn
+pandas==1.4.2
+clearml==1.4.0
+tqdm
+boto3
